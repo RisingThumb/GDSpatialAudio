@@ -13,7 +13,7 @@ Godot currently doesn't have any good acoustic options. This exists to fix that.
 - They have 4 additional properties
 - - max_raycast_distance for the max distance you can hear this node/do raycast checks for it
 - - update_frequency_seconds, for how often it should be sampling the environment. This defaults to using some randomness, so it doesn't check every frame
-- - max_rever_wetness, so your sounds have a maximum to how distorted they are. Some sounds are high-importance design-wise so shouldn't be distorted much acoustically
+- - max_reverb_wetness, so your sounds have a maximum to how distorted they are. Some sounds are high-importance design-wise so shouldn't be distorted much acoustically
 - - wall_lowpass_cutoff_amount, frequency to cut off sounds when blocked by a wall. This combines with an expandedPhysicsMaterial's sound coefficients
 
 ## Notes
